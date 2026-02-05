@@ -39,6 +39,15 @@ body {
     font-weight: bold;
 }
 
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo a:hover {
+    opacity: 0.8;
+}
+
 .navigation ul {
     display: flex;
     list-style: none;
