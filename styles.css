@@ -287,3 +287,45 @@ body {
         font-size: 2rem;
     }
 }
+
+/* Add this at the end of your existing styles */
+
+.quick-links {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    text-align: center;
+}
+
+.link-icon {
+    text-decoration: none;
+    color: inherit;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-icon:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.link-icon .icon {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.link-icon h3 {
+    margin: 0;
+    font-size: 18px;
+}
